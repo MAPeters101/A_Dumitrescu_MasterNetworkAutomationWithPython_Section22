@@ -24,8 +24,84 @@ print(a)
 print(b)
 print(a > b, b < a)
 print(a > b, b == 2)
+print(True > False)
+x = True + True
+print(x)
+print(100 * False)
+print()
+
+result = ''
+if result:
+    print('result is not empty')
+else:
+    print('result is not empty')
+print()
+
+result = ''
+if bool(result):
+    print('result is not empty')
+else:
+    print('result is not empty')
+print()
 
 
 
+var1 = ''
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+var1 = 'ss'
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+var1 = []
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+var1 = [1, 2]
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+
+var1 = 0
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+var1 = 1
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+
+var1 = 0.0
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
+
+var1 = 1.0
+if var1:
+    print('var1 truthy value is True')
+else:
+    print('var1 truthy value is False')
+print()
 
 
